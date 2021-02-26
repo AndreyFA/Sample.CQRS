@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sample.CQRS.Domain\Sample.CQRS.Domain.csproj" />
+      <ProjectReference Include="..\Sample.CQRS.Infra.Cache\Sample.CQRS.Infra.Cache.csproj" />
+    </ItemGroup>
+
+</Project>
